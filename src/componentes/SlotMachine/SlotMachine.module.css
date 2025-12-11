@@ -1,0 +1,32 @@
+.slotMachine {
+    background-color: brown;
+    text-align: center;
+    margin-top: 40px;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 100%;
+    background-color: rgba(222, 33, 15, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.message {
+    font-size: 22px;
+    margin-top: 15px;
+}

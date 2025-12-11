@@ -1,0 +1,31 @@
+.reel {
+    width: 80px;
+    height: 80px;
+    background: #222;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    overflow: hidden;
+}
+
+
+.symbol {
+    transition: transform 0.2s ease;
+}
+
+
+.spin {
+    animation: spinAnimation 0.3s linear infinite;
+}
+
+
+@keyframes spinAnimation {
+    0% { transform: translateY(0); }
+    25% { transform: translateY(-10px) rotateX(90deg); }
+    50% { transform: translateY(10px) rotateX(180deg); }
+    75% { transform: translateY(-10px) rotateX(270deg); }
+    100% { transform: translateY(0) rotateX(360deg); }
+}
