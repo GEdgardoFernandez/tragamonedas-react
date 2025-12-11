@@ -1,0 +1,44 @@
+.paytable {
+  margin-top: 30px;
+  background: #111;
+  padding: 20px;
+  border-radius: 15px;
+  border: 2px solid #ffcc00;
+  box-shadow: 0 0 15px #ffcc0055;
+  text-align: center;
+  width: 330px;
+}
+
+.title {
+  color: #ffd700;
+  margin-bottom: 15px;
+  text-shadow: 0 0 8px #ff9900;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+  font-size: 18px;
+}
+
+.table th {
+  padding: 10px;
+  background: #222;
+  border-bottom: 2px solid #ffcc00;
+}
+
+.table td {
+  padding: 8px;
+  border-bottom: 1px solid #555;
+}
+
+.table tr:last-child td {
+  border-bottom: none;
+}
+
+.maxPrize {
+  color: #ffcc00;
+  font-weight: bold;
+  text-shadow: 0 0 8px #ff6600;
+}

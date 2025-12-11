@@ -1,25 +1,21 @@
 .button {
-  --bg: #e74c3c;
-  --text-color: #fff;
-  position: relative;
-  width: 150px;
+  background: linear-gradient(180deg, #ff0000, #990000);
   border: none;
-  background: var(--bg);
-  color: var(--text-color);
-  padding: 1em;
-  font-weight: bold;
-  text-transform: uppercase;
+  color: white;
+  padding: 15px 30px;
+  font-size: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  text-shadow: 0 0 5px #000;
+  box-shadow: 0 0 15px #ff0000aa;
   transition: 0.2s;
-  border-radius: 5px;
-  opacity: 0.8;
-  letter-spacing: 1px;
-  box-shadow: #c0392b 0px 7px 2px, #000 0px 8px 5px;
 }
 
 .button:hover {
   opacity: 1;
 }
+
 .button:active {
-  top: 4px;
-  box-shadow: #c0392b 0px 3px 2px,#000 0px 3px 5px;
+  transform: scale(0.95);
+  box-shadow: 0 0 5px #ff0000aa;
 }

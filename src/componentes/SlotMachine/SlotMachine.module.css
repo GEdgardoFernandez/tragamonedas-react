@@ -1,17 +1,36 @@
-.slotMachine {
-    background-color: brown;
-    text-align: center;
-    margin-top: 40px;
-    color: #fff;
-    padding: 20px;
+body {
+    background: radial-gradient(circle at center, #1a1a1a, #000);
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+
+.slotMachine {
+    background: linear-gradient(145deg, #3a3a3a, #222);
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px #ff000055, inset 0 0 15px #000;
+    border: 3px solid #ffcc00;
+    width: 430px;
+    text-align: center;
 }
 
 .title {
-    font-size: 48px;
+    color: #ffd700;
+    text-shadow: 0 0 10px #ff9900;
     margin-bottom: 20px;
+}
+.creditsContainer{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid #ffcc00;
+    border-radius: 10px;
+}
+.credits {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 15px;
 }
 
 .container {
@@ -25,8 +44,24 @@
     gap: 15px;
     margin: 20px 0;
 }
-
-.message {
-    font-size: 22px;
-    margin-top: 15px;
+.palancaContainer {
+ padding: 20px;
 }
+.message {
+    margin-top: 15px;
+    font-size: 22px;
+    color: #00ff22;
+    text-shadow: 0 0 10px #00ff1a;
+    min-height: 30px;
+}
+.messageContainer {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid #00ff22;
+    border-radius: 10px;
+}
+.reels {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
